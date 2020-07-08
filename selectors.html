@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./assests/style.css" type="text/css">
+  </head>
+  <body>
+    <h1>CSS Selectors and Specifity</h1>
+    <p><a href="./index.html">Home</a></p>
+    <h2>CSS Specifity Hierarchy</h2>
+    <table>
+      <thead>
+        <th>Specifity</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">1</span></td>
+          <td>Inline styles</td>
+          <td>(Presence of style in document). An inline style lives within your XHTML document. It is attached directly to the element to be styled. E.g. &lt;h1 style=“color: #fff;”&lt;</td>
+        </tr>
+        <tr>
+          <td><span class="code">2</span></td>
+          <td>IDs</td>
+          <td>(# of ID selectors) ID is an identifier for your page elements, such as #div.</td>
+        </tr>
+        <tr>
+          <td><span class="code">3</span></td>
+          <td>Classes, attributes and pseudo-classes</td>
+          <td>(# of class selectors). This group includes .classes, [attributes] and pseudo-classes such as :hover, :focus etc.</td>
+        </tr>
+        <tr>
+          <td><span class="code">4</span></td>
+          <td>Elements and pseudo-elements</td>
+          <td>(# of Element (type) selectors). Including for instance :before and :after.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>CSS Selectors</h2>
+    <table>
+      <thead>
+        <th>Selector</th>
+        <th>Example</th>
+        <th>Example Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code"><em>.class</em></span></td> 
+            <td>.intro</td>
+            <td>Selects all elements with class="intro".</td>
+        </tr>
+        <tr>
+            <td><span class="code"><em>#id</em></span></td> 
+            <td>#firstname</td>
+            <td>Selects the element with id="firstname".</td>
+        </tr>
+        <tr>
+            <td><span class="code"><em>element</em></span></td> 
+            <td>p</td>
+            <td>Selects all &lt;p&lt; elements.</td>
+        </tr>
+        <tr>
+            <td><span class="code"><em>[attribute]</em></span></td> 
+            <td>[target]</td>
+            <td>Selects all elements with a target attribute.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
